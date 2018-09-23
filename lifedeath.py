@@ -10,7 +10,7 @@ lifedeath = [100 * life, 100 * death]
 fig, ax = plt.subplots(1,1)
 
 pie, labels = ax.pie(lifedeath, labels=('Life', 'Death'),
-										 colors=['#1b9e77', '#d95f02'])
+                     colors=['#1b9e77', '#d95f02'])
 
 
 [p.set_linewidth(0) for p in pie]
